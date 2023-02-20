@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<annox:class xmlns:annox="http://annox.dev.java.net" xmlns:jaxb="http://annox.dev.java.net/javax.xml.bind.annotation" name="CategoryDetails">
+  <jaxb:XmlAccessorType value="NONE"/>
+  <jaxb:XmlType name="CategoryDetailsType" propOrder="acvDetails hwOrSwCategory "/>
+  <jaxb:XmlRootElement name="CategoryDetails" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  <annox:field name="acvDetails">
+    <jaxb:XmlElement name="acvDetails" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+  <annox:field name="hwOrSwCategory">
+    <jaxb:XmlElement name="hwOrSwCategory" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+</annox:class>

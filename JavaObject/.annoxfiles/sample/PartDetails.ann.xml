@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<annox:class xmlns:annox="http://annox.dev.java.net" xmlns:jaxb="http://annox.dev.java.net/javax.xml.bind.annotation" name="PartDetails">
+  <jaxb:XmlAccessorType value="NONE"/>
+  <jaxb:XmlType name="PartDetailsType" propOrder="autoRenewalTerm description initialTerm partNumber quantity "/>
+  <jaxb:XmlRootElement name="PartDetails" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  <annox:field name="autoRenewalTerm">
+    <jaxb:XmlElement name="autoRenewalTerm" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+  <annox:field name="description">
+    <jaxb:XmlElement name="description" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+  <annox:field name="initialTerm">
+    <jaxb:XmlElement name="initialTerm" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+  <annox:field name="partNumber">
+    <jaxb:XmlElement name="partNumber" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+  <annox:field name="quantity">
+    <jaxb:XmlElement name="quantity" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot" required="false" type="java.lang.Integer"/>
+  </annox:field>
+</annox:class>

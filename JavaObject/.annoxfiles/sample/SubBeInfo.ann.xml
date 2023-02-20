@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<annox:class xmlns:annox="http://annox.dev.java.net" xmlns:jaxb="http://annox.dev.java.net/javax.xml.bind.annotation" name="SubBeInfo">
+  <jaxb:XmlAccessorType value="NONE"/>
+  <jaxb:XmlType name="SubBeInfoType" propOrder="acvDetails categoryDetails name "/>
+  <jaxb:XmlRootElement name="SubBeInfo" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  <annox:field name="acvDetails">
+    <jaxb:XmlElement name="acvDetails" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+  <annox:field name="categoryDetails">
+    <jaxb:XmlElement name="categoryDetails" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+  <annox:field name="name">
+    <jaxb:XmlElement name="name" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+</annox:class>

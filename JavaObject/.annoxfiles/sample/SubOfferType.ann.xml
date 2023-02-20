@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<annox:class xmlns:annox="http://annox.dev.java.net" xmlns:jaxb="http://annox.dev.java.net/javax.xml.bind.annotation" name="SubOfferType">
+  <jaxb:XmlAccessorType value="NONE"/>
+  <jaxb:XmlType name="SubOfferTypeType" propOrder="name netPrice recurringFlag "/>
+  <jaxb:XmlRootElement name="SubOfferType" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  <annox:field name="name">
+    <jaxb:XmlElement name="name" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+  <annox:field name="netPrice">
+    <jaxb:XmlElement name="netPrice" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot" required="false" type="java.lang.Double"/>
+  </annox:field>
+  <annox:field name="recurringFlag">
+    <jaxb:XmlElement name="recurringFlag" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+</annox:class>

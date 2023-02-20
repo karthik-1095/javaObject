@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<annox:class xmlns:annox="http://annox.dev.java.net" xmlns:jaxb="http://annox.dev.java.net/javax.xml.bind.annotation" name="RoDetails">
+  <jaxb:XmlAccessorType value="NONE"/>
+  <jaxb:XmlType name="RoDetailsType" propOrder="buyProg roFlag "/>
+  <jaxb:XmlRootElement name="RoDetails" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  <annox:field name="buyProg">
+    <jaxb:XmlElement name="buyProg" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+  <annox:field name="roFlag">
+    <jaxb:XmlElement name="roFlag" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+</annox:class>

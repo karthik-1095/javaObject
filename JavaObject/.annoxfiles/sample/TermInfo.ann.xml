@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<annox:class xmlns:annox="http://annox.dev.java.net" xmlns:jaxb="http://annox.dev.java.net/javax.xml.bind.annotation" name="TermInfo">
+  <jaxb:XmlAccessorType value="NONE"/>
+  <jaxb:XmlType name="TermInfoType" propOrder="extNetPrice lineId partnerIntent sellerIntent term "/>
+  <jaxb:XmlRootElement name="TermInfo" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  <annox:field name="extNetPrice">
+    <jaxb:XmlElement name="extNetPrice" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot" required="false" type="java.lang.Double"/>
+  </annox:field>
+  <annox:field name="lineId">
+    <jaxb:XmlElement name="lineId" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+  <annox:field name="partnerIntent">
+    <jaxb:XmlElement name="partnerIntent" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+  <annox:field name="sellerIntent">
+    <jaxb:XmlElement name="sellerIntent" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+  <annox:field name="term">
+    <jaxb:XmlElement name="term" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot" required="false" type="java.lang.Double"/>
+  </annox:field>
+</annox:class>

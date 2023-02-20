@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<annox:class xmlns:annox="http://annox.dev.java.net" xmlns:jaxb="http://annox.dev.java.net/javax.xml.bind.annotation" name="ServiceProgram">
+  <jaxb:XmlAccessorType value="NONE"/>
+  <jaxb:XmlType name="ServiceProgramType" propOrder="name serviceLevel "/>
+  <jaxb:XmlRootElement name="ServiceProgram" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  <annox:field name="name">
+    <jaxb:XmlElement name="name" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+  <annox:field name="serviceLevel">
+    <jaxb:XmlElement name="serviceLevel" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+</annox:class>

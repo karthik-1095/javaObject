@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<annox:class xmlns:annox="http://annox.dev.java.net" xmlns:jaxb="http://annox.dev.java.net/javax.xml.bind.annotation" name="CxAttr">
+  <jaxb:XmlAccessorType value="NONE"/>
+  <jaxb:XmlType name="CxAttrType" propOrder="GSP cspLevel "/>
+  <jaxb:XmlRootElement name="CxAttr" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  <annox:field name="GSP">
+    <jaxb:XmlElement name="GSP" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+  <annox:field name="cspLevel">
+    <jaxb:XmlElement name="cspLevel" namespace="www.tibco.com/plugin/java/xmlSchema/sample.ProductDetailsRoot"/>
+  </annox:field>
+</annox:class>
